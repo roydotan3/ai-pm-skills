@@ -1,10 +1,12 @@
 {
   "name": "ai-pm-skills",
-  "owner": { "name": "Ofer Regev" },
+  "owner": {
+    "name": "Ofer Regev"
+  },
   "plugins": [
     {
       "name": "idea-to-mvp",
-      "source": "./",
+      "source": "./plugins/idea-to-mvp",
       "description": "Idea → users → use cases → alternatives → solutions → MVP cut → validation → lean PRD, then an optional Lean PMF search (canvas → customer discovery → PMF signal). Interactive product-sense flow for PMs."
     },
     {
